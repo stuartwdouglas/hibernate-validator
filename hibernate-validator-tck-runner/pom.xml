@@ -90,7 +90,7 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>${project.build.directory}/dependency/jsr303-tck-suite.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                    <argLine>-Xmx128m</argLine>
+                    <argLine>-Xmx512m</argLine>
                     <forkMode>once</forkMode>
                     <systemProperties>
                         <property>
